@@ -1,0 +1,3 @@
+pyserial
+isodate
+influxdb
