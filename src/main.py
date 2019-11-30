@@ -20,7 +20,7 @@ INFLUX_DB = os.environ['INFLUX_DB']
 
 def scan_and_store(timestamp):
     
-    registers = kamstrup.kamstrup_MC403_var 
+    registers = kamstrup.kamstrup_MC601_var 
 
     with kamstrup.kamstrup(serial_port=DEVICE_PORT, baud=BAUD) as device:
 
